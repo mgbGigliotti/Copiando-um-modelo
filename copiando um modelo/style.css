@@ -1,0 +1,203 @@
+body{
+
+background:lightgray;
+margin:0;
+
+}
+
+
+.topo{
+
+display:flex;
+align-items:center;
+justify-content:space-between;
+margin-top: 20px;
+margin-left: 10px;
+margin-right: 10px;
+
+background:bisque;
+
+border:4px solid darkblue;
+
+padding:30px;
+
+}
+
+.topo img{
+
+width:200px;
+
+}
+
+.topo h1{
+
+color:darkgreen;
+font-size:40px;
+
+}
+
+
+.menu{
+
+display:flex;
+justify-content:center;
+gap:130px;
+margin-left: 10px;
+margin-right: 10px;
+
+background:lightskyblue;
+padding:20px;
+
+}
+
+.menu a{
+
+color:darkred;
+text-decoration:none;
+font-weight:bold;
+font-size: 15px;
+
+}
+
+
+h2 {
+    text-align: center;
+    color:black;
+    font-size: 25pt;
+}
+
+.intro{
+
+text-align:center;
+
+color:indigo;
+font-size: 20pt;
+margin-left: 10px;
+margin-right: 10px;
+font-family: sans-serif;
+
+}
+
+
+.livros{
+
+text-align:center;
+margin-top:30px;
+
+
+}
+
+.livros-container{
+
+display:flex;
+justify-content:center;
+gap:120px;
+margin-top:20px;
+
+}
+
+.livros-container img{
+
+width:500px;
+
+}
+
+
+.fei{
+
+text-align:center;
+margin-top:30px;
+
+}
+
+.fei-container{
+
+display:flex;
+justify-content:center;
+gap:100px;
+margin-top:20px;
+
+}
+
+
+.contatos{
+
+display:flex;
+flex-direction:column;
+align-items:center;
+
+
+margin-top:30px;
+
+}
+
+table{
+
+border:3px dashed red;
+
+}
+
+th,td{
+
+border:1px solid red;
+padding:20px;
+
+}
+
+
+.consulta{
+
+background:yellow;
+width:500px;
+
+margin:auto;
+margin-top:30px;
+font-size: 15px;
+
+padding:10px;
+
+}
+span {
+    display: inline-block;
+    width: 120px;
+    font-size: 15px;
+}
+
+a {
+    color: brown;
+    font-size: 15px;
+}
+
+
+.footer{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+background:bisque;
+padding:10px;
+
+margin-top:40px;
+margin-bottom: 20px;
+margin-left: 10px;
+margin-right: 10px;
+
+}
+
+.css {
+    width: 100px;
+    margin-right:35px;
+}
+
+.html{
+    width: 160px;
+}
+
+.footer p{
+
+font-family:"Comic Sans MS";
+font-size:15pt;
+text-align:center;
+margin-top: 20px;
+}
