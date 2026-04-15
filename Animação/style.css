@@ -1,0 +1,17 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
+#canvas{
+    background-color: rgb(238, 231, 231);
+    border: 2px solid black;
+}
+
+.canvas {
+    justify-content: center;
+    display: flex;
+}
+
+* {
+    background-color: rgb(151, 151, 221);
+}
