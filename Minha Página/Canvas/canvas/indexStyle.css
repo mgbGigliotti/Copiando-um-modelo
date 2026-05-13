@@ -1,0 +1,15 @@
+body{
+    position: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+#div{
+    margin-left: 42.5% ;
+}
+
+#canvas{
+    background-color: white;
+}
