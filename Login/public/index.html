@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Servidor</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Servidor rodando...</h1>
+        <h2>Mateus Gabriel Barbosa Gigliotti</h2>
+
+        <h3>Exemplo de BD - Create</h3>
+        <form method="post" action="/cadastrar_usuario">
+            <p>Nome<input type="text" name="nome"></p>
+            <p>Login</p><input type="text" name="login"></p>
+            <p>Senha</p><input type="password" name="senha"></p>
+            <input type="submit" value="Cadastrar">
+        </form>
+
+        <h3>Exemplo de BD - Read</h3>
+        <form method="post" action="/logar_usuario">
+            <p>Login</p><input type="text" name="login"></p>
+            <p>Senha</p><input type="password" name="senha"></p>
+            <input type="submit" value="Logar">
+        </form>
+    </body>
+</html>

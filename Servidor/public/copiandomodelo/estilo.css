@@ -1,0 +1,168 @@
+h2 {
+    text-align: center;
+    position: relative;
+    top: -20px;
+    font-size: 22pt;
+
+}   
+
+.head { 
+    font-size: 40pts;
+    text-align: center;
+    color: darkgreen;
+    background-color: bisque;
+    border: solid 3px darkblue;
+    padding:100px;
+}
+
+#img1 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+#img2 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 40px;
+    left: 1650px;
+}
+
+.menu {
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 13pt;
+    position: relative;
+    top: -22px;
+    padding: 15px;
+}
+
+#home {
+    position: relative;
+    margin: 60px;
+    color: darkred;
+    text-decoration: none;
+}
+#livro {
+    position: relative;
+    margin: 60px;
+    color: darkred;
+    text-decoration: none;
+}
+#video {
+    position: relative;
+    margin: 60px;
+    color: darkred;
+    text-decoration: none;
+}
+#contato {
+    position: relative;
+    margin: 60px;
+    color: darkred;
+    text-decoration: none;
+}
+
+
+.textos{
+    text-align: center;
+    color: indigo;
+    font-size: 20pt;
+    font-family: sans-serif;
+}
+
+.images{
+    display: inline;
+    width: 500px;
+    height: 600px;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+iframe {
+    display: inline;
+    width: 400px;
+    height: 400px;
+    border: none;
+    
+}
+.embed{
+    margin-left:500px;
+}
+
+#if1 {
+    padding-right:50px;
+}
+
+#if2 {
+    padding-left:30px;
+}
+
+table {
+    border: dashed;
+    margin:auto;
+    color:red;
+    width: 400px;
+    height: 150px;
+}
+
+td {
+    text-align: center;
+    border: solid 1px red;
+}
+
+#co {
+    color: black;
+}
+
+.box {
+    background: yellow;
+    width: 500px;
+    margin: 25px auto;
+    padding-bottom: 1px;
+    
+}
+
+span {
+    display: inline-block;
+    width: 120px;
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+}
+
+.foot {
+    background: bisque;
+    padding: 80px;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+#hfoot {
+    position: relative;
+    top: -30px;
+}
+
+#img3 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 2390px;
+    left: 20px;
+
+}
+
+#img4 {
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    top: 2390px;
+    left: 1700px;
+}
