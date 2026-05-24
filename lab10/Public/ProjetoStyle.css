@@ -1,0 +1,95 @@
+body{
+    background-color: grey;
+    margin: 0;
+}
+
+.body{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.body h1{
+    font-family: sans-serif;
+}
+
+.FullStack{
+    background-color: rgba(65, 65, 65, 0.212);
+    padding: 10px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    height: 600px;
+    width: 450px;
+}
+.Outros{
+    background-color: rgba(65, 65, 65, 0.212);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.header{
+    display: flex;
+    background-color: rgb(87, 98, 109);
+    width: 100%px;
+    height: 10px;
+    justify-content: center;
+    gap: 150px;
+    padding: 10px;
+}
+.header a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.header:hover{
+    height: 50px;
+}
+.header a:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    padding: 0px;
+}
+.ProjetoFullStack a{
+    text-decoration: none;
+    color: blue;
+}
+
+.Projeto1F{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+    width: 410px;
+    height: 60px;
+    font-family: sans-serif;
+}
+
+.Projeto1F:hover {
+    background-color: antiquewhite;
+    border-radius: 20px;
+    display: flex;
+    gap: 5px;
+    box-shadow: 0 0 20px white;
+}
+
+.Projeto1F .proj1f{
+    display: none;
+}
+.Projeto1F:hover h2{
+    display: none;
+}
+.Projeto1F:hover .proj1f{
+    display: inline;
+}
+
+#lab8{
+    position: relative;
+    left: 50%;
+    top: 10%;
+}

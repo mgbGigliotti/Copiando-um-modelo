@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="carrostyle.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">
+                <h3>Cadastro de Carros</h3>
+                <form method="post" action="/novocarro">
+                    <p>Marca: <input type="text" name="marca"></p>
+                    <p>Modelo: <input type="text" name="modelo"></p>
+                    <p>Ano: <input type="text" name="ano"></p>
+                    <p>Quantidade Disponível: <input type="number" name="qtde"></p>
+                    <input type="submit" value="Cadastrar Carro">
+                </form>
+            </div>
+
+            <div class="box">
+                <h3>Remoção de Carros</h3>
+                <form method="post" action="/removercarro">
+                    <p>Marca: <input type="text" name="marca"></p>
+                    <p>Modelo: <input type="text" name="modelo"></p>
+                    <p>Ano: <input type="text" name="ano"></p>
+                    <input type="submit" value="Remover Carro">
+                </form>
+            </div>
+
+            <div class="box">
+                <h3>Atualizar Carro</h3>
+                <form method="post" action="/atualizarcarro">
+                    <p>Marca Nova: <input type="text" name="marcanovo"></p>
+                    <p>Marca Antiga: <input type="text" name="marca"></p>
+                    <p>Modelo Novo: <input type="text" name="modelonovo"></p>
+                    <p>Modelo Antigo: <input type="text" name="modelo"></p>
+                    <p>Ano Novo: <input type="text" name="anonovo"></p>
+                    <p>Ano Antigo: <input type="text" name="ano"></p>
+                    <p>Quantidade Disponível: <input type="number" name="qtdenovo"></p>
+                    <input type="submit" value="Atualizar">
+                </form>
+            </div>
+
+            <div class="box">
+                <h3>Vender</h3>
+                <form method="post" action="/vendercarro">
+                    <p>Marca: <input type="text" name="marca"></p>
+                    <p>Modelo: <input type="text" name="modelo"></p>
+                    <p>Ano: <input type="text" name="ano"></p>
+                    <input type="submit" value="Vender">
+                </form>
+            </div>
+        </div>
+
+        <form method="get" action="/carrolistagem">
+            <input type="submit" value="Listagem">
+        </form>
+
+    </body>
+</html>
